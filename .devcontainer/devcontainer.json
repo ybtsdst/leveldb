@@ -41,7 +41,7 @@
 				"codezombiech.gitignore",
 				"SonarSource.sonarlint-vscode",
 				"GitHub.copilot",
-				"llvm-vs-code-extensions.vscode-clangd""
+				"llvm-vs-code-extensions.vscode-clangd"
 			]
 		}
 	},
