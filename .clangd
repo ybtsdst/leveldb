@@ -1,0 +1,12 @@
+---
+CompileFlags:
+  Add: [-ferror-limit=0]
+
+---
+If:
+  PathMatch: .*\_test\.cc
+
+CompileFlags:
+  Add:
+    - -I/opt/leveldb/third_party/googletest/googletest/include
+    - -I/opt/leveldb/third_party/googletest/googlemock/include
